@@ -3,6 +3,9 @@ import logo from '../../assets/kj-logo.svg';
 
 import './navbar.scss';
 
+// TODO: add hamburger menu to navbar
+// Everything fits on mobile so this is low priority
+
 export function NavBar() {
   return (
     <div id="navbar" className="navbar">

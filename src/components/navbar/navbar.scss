@@ -19,14 +19,8 @@ $nav-text: #213547;
   color: $nav-text;
 }
 
-.logo {
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  color: $nav-secondary;
-  cursor: pointer;
-}
-.logo:active {
-  color: $nav-secondary;
+img.logo {
+  height: 32px;
 }
 
 .nav-menu {

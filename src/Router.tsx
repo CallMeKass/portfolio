@@ -10,7 +10,6 @@ import {
 } from 'react-router-dom';
 
 // Pages
-//import { HomePage, AboutPage, PortfolioPage, NotFoundPage } from './pages';
 import HomePage from './pages';
 import AboutPage from './pages/about';
 import ProjectsPage from './pages/projects';

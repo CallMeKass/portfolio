@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/kj-logo.svg';
+import Logo from '../logo';
 
 import './navbar.scss';
 
@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <div id="navbar" className="navbar">
       <a href="/">
-        <img className="logo" src={logo} alt="KJ Logo" />
+        <Logo color="#747bff" className="navbar-logo-main" />
       </a>
       <div className="nav-menu">
         <a href="#" className="nav-item">

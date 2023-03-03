@@ -17,7 +17,7 @@ export function NavBar() {
           Home
         </a>
         <a href="#" className="nav-item">
-          Portfolio
+          Projects
         </a>
         <a href="#" className="nav-item">
           Contact

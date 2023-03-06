@@ -20,9 +20,12 @@ export function NavBar() {
           Projects
         </a>
         <a href="#" className="nav-item">
-          Contact
+          Resume
         </a>
       </div>
+      <a href="#" className="nav-item contact-item">
+        Contact
+      </a>
     </div>
   );
 }

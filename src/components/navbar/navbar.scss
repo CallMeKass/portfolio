@@ -33,7 +33,7 @@ $nav-text: #213547;
 }
 
 .nav-menu .nav-item:not(:first-child) {
-  margin-left: 20px;
+  margin-left: 70px;
 }
 
 .nav-item {
@@ -41,6 +41,7 @@ $nav-text: #213547;
   color: #213547;
   align-items: center;
   border-bottom: 2px solid transparent;
+  font-weight: 400;
 }
 
 .nav-item:hover {

@@ -10,14 +10,14 @@ class HomePage extends Component {
           <h1 className="intro-text"> Hi, I'm Kassidy </h1>
           <h2>Web Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            quis consequat mauris. Sed blandit eros tincidunt mauris aliquam
-            tristique. Duis sagittis egestas mollis. Morbi tincidunt cursus odio
-            vel tincidunt. Curabitur ac magna pretium, maximus arcu non, maximus
-            dui. Mauris hendrerit odio in nisl scelerisque, at posuere nibh
-            pulvinar. Aliquam enim massa, luctus non nisl in, fringilla posuere
-            odio. Phasellus sagittis dapibus nisi, venenatis laoreet risus
-            luctus vel.
+            I'm a creative professional with Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Praesent quis consequat mauris. Sed
+            blandit eros tincidunt mauris aliquam tristique. Duis sagittis
+            egestas mollis. Morbi tincidunt cursus odio vel tincidunt. Curabitur
+            ac magna pretium, maximus arcu non, maximus dui. Mauris hendrerit
+            odio in nisl scelerisque, at posuere nibh pulvinar. Aliquam enim
+            massa, luctus non nisl in, fringilla posuere odio. Phasellus
+            sagittis dapibus nisi, venenatis laoreet risus luctus vel.
           </p>
         </div>
       </div>

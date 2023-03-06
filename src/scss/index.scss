@@ -4,8 +4,14 @@
 
 $primary: #747bff;
 
+#HomePage {
+  background-image: url('../assets/layered-waves.svg');
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #content-container {
-  padding: 0rem 1rem 1rem 1rem;
+  padding: 0rem 1rem 0.25rem 1rem;
   margin: 1rem 2rem;
   max-width: $medium;
   border-left: 2px solid $primary;
@@ -21,6 +27,7 @@ h2 {
 }
 
 p {
+  margin-top: 0.75rem;
   font-weight: 300;
 }
 

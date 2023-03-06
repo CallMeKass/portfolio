@@ -8,8 +8,9 @@ class HomePage extends Component {
       <div id="HomePage">
         <NavBar />
         <div id="content-container">
-          <div id="social-content">Social Content</div>
           <div id="main-content">
+            <div id="social-content">Social Content</div>
+
             <div id="text-container">
               <h1 className="intro-text"> Hi, I'm Kassidy </h1>
               <h2>I build things for the web.</h2>
@@ -20,11 +21,11 @@ class HomePage extends Component {
                 and frameworks. I am passionate about creating, lighting fast,
                 intuitive, and beautiful applications for the web.
               </p>
-            </div>
-            <div id="btn-container">
-              <button>View Projects</button>
-              <button className="btn-secondary">View Resume</button>
-              <button className="btn-secondary">Contact Me</button>
+              <div id="btn-container">
+                <button>View Projects</button>
+                <button className="btn-secondary">View Resume</button>
+                <button className="btn-secondary">Contact Me</button>
+              </div>
             </div>
           </div>
           <div id="right-content">Some image</div>

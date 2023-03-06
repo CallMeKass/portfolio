@@ -5,11 +5,11 @@
   height: 64px;
   box-sizing: border-box;
   padding: 0 2rem;
-  background-color: transparent;
+  background-color: rgba($primary, 5%);
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .navbar {

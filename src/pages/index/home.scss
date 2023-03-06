@@ -3,6 +3,11 @@
   background-image: url('../../assets/layered-waves.svg');
   min-width: 100%;
   min-height: 100%;
+  background-color: rgba($primary, 10%);
+}
+
+#main-content {
+  display: flex;
 }
 
 #content-container {

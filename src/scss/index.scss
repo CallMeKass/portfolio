@@ -1,53 +1,46 @@
 @import './root.scss';
-@import './user-prefs.scss';
-@import './breakpoints.scss';
-@import './colors.scss';
-
-#HomePage {
-  background-image: url('../assets/layered-waves.svg');
-  min-width: 100%;
-  min-height: 100%;
-}
 
 #content-container {
-  padding: 0rem 1rem 0.25rem 1rem;
-  margin: 2rem auto;
-  max-width: $small;
-  border-left: 2px solid $primary;
+  padding-top: 0;
+  margin: 1rem 2rem;
+  background-color: transparent;
 }
 
-@media only screen and (max-width: $medium) {
-  #content-container {
-    margin: 1rem 2rem;
-  }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-weight: 500;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   font-weight: 400;
-  margin: 0.5rem 0;
 }
 
-p {
-  margin-top: 0.75rem;
+p,
+a {
   font-weight: 300;
 }
 
-.intro-text {
-  margin: 0;
-}
-
 a {
-  font-weight: 500;
   color: $primary;
   text-decoration: inherit;
 }
 
 a:hover {
   color: $primary;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 body {
@@ -57,26 +50,26 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 12px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $primary;
+  background-color: $altwhite;
+  color: $primary;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 400;
   font-family: inherit;
-  background-color: #f9f9f9;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.25s, color 0.25s, box-shadow 0.25s;
 }
+
 button:hover {
-  border-color: $primary;
+  color: $altwhite;
+  background-color: $primary;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+button:active {
+  box-shadow: 0px 0px 0px 4px rgba($primary, 50%);
 }

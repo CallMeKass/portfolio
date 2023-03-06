@@ -1,0 +1,40 @@
+@import '../../scss/variables.scss';
+#HomePage {
+  background-image: url('../../assets/layered-waves.svg');
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#social-content {
+  text-align: end;
+}
+
+#text-container,
+#btn-container {
+  max-width: $small;
+  margin: auto;
+}
+
+@media only screen and (min-width: $small) {
+  #btn-container button:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: $small) {
+  #btn-container button {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #btn-container button:not(:first-child) {
+    margin-top: 10px;
+  }
+  #content-container {
+    margin: 0 2rem;
+  }
+}

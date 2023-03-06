@@ -1,28 +1,30 @@
 @import './root.scss';
 @import './user-prefs.scss';
+@import './breakpoints.scss';
+
+$primary: #747bff;
 
 #content-container {
-  padding: 1rem 2rem;
-  text-align: center;
+  margin: 1rem 2rem;
 }
 
-.jake {
-  color: #646cff;
-}
-
-h1,
-h2 {
+.intro-text {
   margin: 0;
+}
+
+.prime-color {
+  border-bottom: solid $primary;
+  color: $primary;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: $primary;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #747bff;
+  color: $primary;
 }
 
 body {
@@ -49,7 +51,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: $primary;
 }
 button:focus,
 button:focus-visible {

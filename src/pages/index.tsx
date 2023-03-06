@@ -8,16 +8,13 @@ class HomePage extends Component {
         <NavBar />
         <div id="content-container">
           <h1 className="intro-text"> Hi, I'm Kassidy </h1>
-          <h2>Web Developer</h2>
+          <h2>I build things for the web.</h2>
           <p>
-            I'm a creative professional with Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Praesent quis consequat mauris. Sed
-            blandit eros tincidunt mauris aliquam tristique. Duis sagittis
-            egestas mollis. Morbi tincidunt cursus odio vel tincidunt. Curabitur
-            ac magna pretium, maximus arcu non, maximus dui. Mauris hendrerit
-            odio in nisl scelerisque, at posuere nibh pulvinar. Aliquam enim
-            massa, luctus non nisl in, fringilla posuere odio. Phasellus
-            sagittis dapibus nisi, venenatis laoreet risus luctus vel.
+            I'm a creative professional with several years of experience in Web
+            Development and Software Engineering. I have designed and built many
+            full stack applications using a variety of libraries and frameworks.
+            I am passionate about creating, lighting fast, intuitive, and
+            beautiful applications for the web.
           </p>
         </div>
       </div>

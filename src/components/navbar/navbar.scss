@@ -1,6 +1,4 @@
-$nav-secondary: #747bff;
-$nav-background: #ffffff;
-$nav-text: #213547;
+@import '../../scss/colors.scss';
 
 #navbar {
   width: 100vw;
@@ -16,7 +14,6 @@ $nav-text: #213547;
 .navbar {
   text-transform: uppercase;
   font-weight: 900;
-  color: $nav-text;
 }
 
 .navbar-logo-main {
@@ -38,18 +35,18 @@ $nav-text: #213547;
 
 .nav-item {
   display: flex;
-  color: #213547;
   align-items: center;
   border-bottom: 2px solid transparent;
   font-weight: 400;
+  color: $altblack;
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid $nav-secondary;
-  color: $nav-text;
+  border-bottom: 2px solid $primary;
+  color: $altblack;
 }
 
 .nav-item:active {
-  border-bottom: 2px solid $nav-secondary;
-  color: $nav-secondary;
+  border-bottom: 2px solid $primary;
+  color: $primary;
 }

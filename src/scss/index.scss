@@ -1,8 +1,7 @@
 @import './root.scss';
 @import './user-prefs.scss';
 @import './breakpoints.scss';
-
-$primary: #747bff;
+@import './colors.scss';
 
 #HomePage {
   background-image: url('../assets/layered-waves.svg');
@@ -12,9 +11,15 @@ $primary: #747bff;
 
 #content-container {
   padding: 0rem 1rem 0.25rem 1rem;
-  margin: 1rem 2rem;
-  max-width: $medium;
+  margin: 2rem auto;
+  max-width: $small;
   border-left: 2px solid $primary;
+}
+
+@media only screen and (max-width: $medium) {
+  #content-container {
+    margin: 1rem 2rem;
+  }
 }
 
 h1 {

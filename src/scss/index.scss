@@ -5,16 +5,27 @@
 $primary: #747bff;
 
 #content-container {
+  padding: 0rem 1rem 1rem 1rem;
   margin: 1rem 2rem;
+  max-width: $medium;
+  border-left: 2px solid $primary;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-weight: 300;
 }
 
 .intro-text {
   margin: 0;
-}
-
-.prime-color {
-  border-bottom: solid $primary;
-  color: $primary;
 }
 
 a {

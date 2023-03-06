@@ -7,9 +7,8 @@ class HomePage extends Component {
       <div id="HomePage">
         <NavBar />
         <div id="content-container">
-          <p className="intro-text">Hi, my name is</p>
-          <h1 className="intro-text">Kassidy</h1>
-          <h2>I build things for the web.</h2>
+          <h1 className="intro-text"> Hi, I'm Kassidy </h1>
+          <h2>Web Developer</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             quis consequat mauris. Sed blandit eros tincidunt mauris aliquam

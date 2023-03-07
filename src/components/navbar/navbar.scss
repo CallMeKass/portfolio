@@ -1,22 +1,21 @@
-$nav-secondary: #747bff;
-$nav-background: #ffffff;
-$nav-text: #213547;
+@import '../../scss/variables.scss';
 
 #navbar {
   width: 100vw;
   height: 64px;
   box-sizing: border-box;
-  padding: 0px 2rem;
-  background-color: transparent;
+  padding: 0 2rem;
+  background-color: white;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  box-shadow: 0px 0px 2px $primary;
 }
 
 .navbar {
   text-transform: uppercase;
   font-weight: 900;
-  color: $nav-text;
 }
 
 .navbar-logo-main {
@@ -33,22 +32,23 @@ $nav-text: #213547;
 }
 
 .nav-menu .nav-item:not(:first-child) {
-  margin-left: 20px;
+  margin-left: 70px;
 }
 
 .nav-item {
   display: flex;
-  color: #213547;
   align-items: center;
   border-bottom: 2px solid transparent;
+  font-weight: 400;
+  color: $altblack;
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid $nav-secondary;
-  color: $nav-text;
+  border-bottom: 2px solid $primary;
+  color: $altblack;
 }
 
 .nav-item:active {
-  border-bottom: 2px solid $nav-secondary;
-  color: $nav-secondary;
+  border-bottom: 2px solid $primary;
+  color: $primary;
 }
